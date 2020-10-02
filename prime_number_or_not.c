@@ -18,11 +18,11 @@ int main(){
     }while(i<n);
     if(prime==0)
     {
-        printf("it is not a prime number");
+        printf("it is a prime number"); //if no. is divisible by 2 then it is prime
     }
     else
     {
-        printf("it is a prime number");
+        printf("it is not a prime number"); // if no. is not divisible by 2 it is not prime
     }
 
     return 0;
